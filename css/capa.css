@@ -1,0 +1,270 @@
+html{
+	font-family: 'Mukta', sans-serif;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Mukta', sans-serif;
+	font-weight: 600;
+}
+
+h1{
+	font-size: 10px;
+}
+
+h3 {
+	color: #fff;
+}
+
+label, p{
+	color: #01303b;
+    font-weight: 600;
+}
+
+/*Inicio de las clases junto al Responsive*/
+
+.anoter{
+	background-color: #00586b;
+	display: flex;
+	align-items: center;
+	padding-left: 1rem;
+}
+
+.anoter img{
+	padding-left: 1rem;
+}
+
+.anoter h1{
+	font-size: 2.2rem;
+	font-weight: 600;
+}
+
+.contenedor {
+	display: grid;
+	grid-template-columns: 1fr 5fr;
+	background-color: #8d93ffcc;
+}
+
+@media(max-width:1300px){
+	.contenedor{
+	display: grid;
+	grid-template-columns: 1fr 4fr;
+	}
+}
+
+@media(max-width:1000px){
+	.contenedor{
+	display: grid;
+	grid-template-columns: 1fr 3fr;
+	}
+}
+
+/*Side menu of proyect*/
+/* Primary Part import*/
+
+main {
+	height: 720px;
+}
+
+.part-line{
+	padding: 10px 14px;
+    align-items: center;
+}
+
+div .select{
+	display: flex;
+    justify-content: space-between;
+
+}
+
+.part-line{
+	border-bottom: 1px solid #007790;
+	max-width: 100%;
+	padding-bottom: 20px;
+}
+
+.left {
+	justify-content: space-between;
+}
+
+.box-details{
+	text-align: center;
+	color: #00586b;
+    width: 80px;
+    height: 25px;
+    padding: 0 2px;
+    font-size: 14px;
+    background: #ebf2f4;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+/*Side right of proyect*/
+
+.right{
+	background: #c0c0c0;
+	padding: 2rem;
+}
+
+/*class buttons*/
+
+.botones{
+	flex: 1;
+    color: #444;
+    border: 1px solid #ddd;
+    margin: 40px auto 0 auto;
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    max-width: 675px;
+    background: #023a46;
+    box-shadow: 1px 1px 5px #ddd;
+    min-height: 50px;
+    align-content: space-between;
+    padding: 1.2rem 1.2rem 0 1.2rem;
+}
+
+button{
+	width: 80px;
+	height: 35px;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+button span{
+	font-size: 12px;
+}
+
+
+/* box of email*/
+
+.correo span{
+	background: yellow;
+	padding: 0 5px;
+}
+
+em{
+	font-size: 12px;
+}
+
+
+.task{
+	color: #00586b;
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.person{
+	padding: 5px;
+	font-size: 16px;
+	background: yellow;
+	color: #016231;
+}
+
+section button{
+	margin-right: .7rem;
+}
+
+progress{
+	width: 100%;
+	height: 25px;
+}
+
+div .space{
+	display: block;
+	justify-content: space-between;
+}
+
+.correo {
+	font-size:20px;
+	font-weight: 500;
+	flex: 1;
+    color: #444;
+    margin: 0px auto 0 auto;
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    max-width: 675px;
+    background: #fff;
+    box-shadow: 1px 1px 5px #ddd;
+    min-height: 50px;
+    align-content: space-between;
+    padding: 1.2rem 1.2rem 3rem 1.2rem;
+}
+
+.progress-work{
+	display: flex;
+	justify-content: space-between;
+	gap: 3px;
+}
+
+.none{
+	border: none;
+}
+
+/*Butons*/
+
+.dimention-boton img{
+	margin: 0px auto 0 auto;
+	width: 80px;
+	max-width: 900px;
+	display: flex;
+}
+
+.boton-of-task{
+	display: flex;
+	justify-content: space-between;
+	margin: 7rem auto 0rem;
+	cursor: pointer;
+	max-width: 675px;
+}
+
+@media(max-width: 1450px){
+	.boton-of-task{
+		margin: 7rem auto 0rem;
+		justify-content: space-between;
+	}
+}
+
+
+/*part end footer*/
+
+.site-footer{
+	background-color: #00586b;
+    margin:0 auto;
+}
+
+footer{
+	position: absolute;
+	width: 100%;
+	height: 50px;
+}
+
+footer, p{
+ color: white;
+}
+
+footer p{
+	padding: .5rem;
+	font-weight: 500;
+}
+
+footer a{
+	text-decoration-line: none;
+	color: #fff;
+	font-weight: 500;
+}
+
+footer a:hover{
+	text-decoration-line: underline;
+}	
+
+
+
+
+
+
+
+0426-1276017
